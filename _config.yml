@@ -6,7 +6,7 @@ patternbot:
       The default layout should be used for almost every single page, it includes the website's primary header and footer.
   title: "FPI"
   description: |
-    A small local vape organization specializing in premium vape products.
+    Welcome
   colors:
     background: "--color-secondary"
     accent: "--color-primary"
