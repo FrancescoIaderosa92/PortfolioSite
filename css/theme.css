@@ -1,7 +1,7 @@
 :root {
-  --color-primary: #D8B146;
-  --color-secondary: #292929;
-  --color-accent: tan;
+  --color-primary: #fff;
+  --color-secondary: #006272;
+  --color-accent: #D8B146;
 
   --font-primary: "Proxima Nova", Arial, sans-serif;
 }
