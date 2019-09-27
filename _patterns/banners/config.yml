@@ -7,7 +7,10 @@ patterns:
     fields:
       - name: daily-deals
         type: string
-        example: "Save up to 20% off your purchase"
+        example: "Francesco P. Iaderosa"
+      - name: text
+        type: string
+        example: "Graphic Designer"
   promo-banner:
     fields:
       - name: limited-time
