@@ -5,7 +5,7 @@ description: |
 patterns:
   hero-banner:
     fields:
-      - name: daily-deals
+      - name: designer-name
         type: string
         example: "Francesco P. Iaderosa"
       - name: text
