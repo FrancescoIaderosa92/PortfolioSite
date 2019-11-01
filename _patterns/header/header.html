@@ -1,14 +1,19 @@
-<header class="banner relative" role="banner">
-  <img class="img-flex" src="/images/notebook-1.jpg" alt="">
-  <div class="text-center banner-content pin-bc island-2 banner-content w-1">
-    <h2 class="tena push-0">{{include.designer-name}}</h2>
-    <p>{{include.text}}</p>
+<header class="banner embed embed-golden" role="banner">
+  <div class="">
+    <div class="grid embed-item pad-t pad-b gutter">
+      <div class="unit xs-1 s-1 m-1-4 text-center logo">
+        <h2 class="tena push-0">{{include.designer-name}}</h2>
+        <p>{{include.text}}</p>
+      </div>
+      <div class="unit xs-1 s-1 m-3-4">
+        <nav class="navigation" id="navigation">
+          <ul class="nav list-group text-center">
+            <li class="micro gutter-1-4 {% if page.highlight_nav == 'faq/help' %}current{% endif %}"><a class="link-box" href="#projects">Projects</a></li>
+            <li class="micro gutter-1-4 {% if page.highlight_nav == 'blog' %}current{% endif %}"><a class="link-box" href="#process">Process</a></li>
+            <li class="zetta gutter-1-4 {% if page.highlight_nav == 'home' %}current{% endif %}"><a class="link-box" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </div>
-  <nav class="navigation pin-lb w-1" id="navigation" >
-    <ul class="grid list-group text-center">
-      <li class="unit xs-1 s-1 m-1-5 l-1-5 micro {% if page.highlight_nav == 'faq/help' %}current{% endif %}"><a class="link-box" href="#">Projects</a></li>
-      <li class="unit xs-1 s-1 m-1-5 l-1-5 micro {% if page.highlight_nav == 'blog' %}current{% endif %}"><a class="link-box" href="#">Process</a></li>
-      <li class="unit xs-1 s-1 m-1-5 l-1-5 zetta {% if page.highlight_nav == 'home' %}current{% endif %}"><a class="link-box" href="/index/">Contact</a></li>
-    </ul>
-  </nav>
 </header>
