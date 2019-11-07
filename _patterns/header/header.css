@@ -1,5 +1,6 @@
 .banner {
   background: url("/images/notebook-1.jpg") no-repeat center / cover;
+  height: 100vh;
 }
 
 a {
@@ -12,6 +13,32 @@ a:hover {
   text-decoration:underline;
 }
 
+.top-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--color-primary);
+  z-index: 100;
+}
+
+.header-txt, .a-txt {
+  color: #fff !important;
+}
+
+.logo-size {
+  max-width: 125px;
+  margin: 0 auto;
+}
+
+.logo-size:hover{
+  transform: scale(1.2);
+  transition: all 250ms linear;
+}
+
+.copyright p {
+  color: #fff;
+}
+
 @media only screen and (min-width: 38em) {
 
   .banner .nav li {
@@ -20,10 +47,6 @@ a:hover {
 
   .nav {
     text-align: right;
-  }
-
-  .logo {
-    text-align: left;
   }
 
 }
