@@ -3,14 +3,6 @@ description: |
   Banners should be used in almost every single page.
 
 patterns:
-  hero-banner:
-    fields:
-      - name: designer-name
-        type: string
-        example: "Francesco P. Iaderosa"
-      - name: text
-        type: string
-        example: "Graphic Designer"
   promo-banner:
     fields:
       - name: limited-time
