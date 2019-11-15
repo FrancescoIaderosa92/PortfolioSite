@@ -2,8 +2,12 @@ a{
   font-style:normal;
 }
 a:hover {
-  color:#fff;
+  color:#000;
   font-style:normal;
   font-weight:bold;
   text-decoration:underline;
+}
+
+.copyright {
+  color: #000;
 }
