@@ -68,6 +68,10 @@ a {
   text-decoration: underline;
 }
 
+.my-padding {
+  padding-bottom: 80%;
+}
+
 blockquote {
   font-family: var(--font-primary);
   font-size: 1.2148rem;

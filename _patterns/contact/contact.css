@@ -1,5 +1,5 @@
 .avatar {
-  background-color: #000;
+  background-color: #777;
 }
 
 .avatar-image {
@@ -7,4 +7,16 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.embed-frankie {
+  padding-top: 100%;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .embed-frankie {
+    padding-top: 0;
+  }
+
 }
