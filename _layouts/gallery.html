@@ -1,3 +1,23 @@
 ---
 layout: default
+images:
+  - image_path: /images/dooly'sportfolio.jpg
+    title: Dooly's
+    weight: 1
+  - image_path: /images/dooly'sportfolio.jpg
+    title: Dooly's
+    weight: 2
+  - image_path: /images/dooly'sportfolio.jpg
+    title: Dooly's
+    weight: 3
+  - image_path: /images/dooly'sportfolio.jpg
+    title: Dooly's
+    weight: 4
 ---
+
+{% assign sorted_photos = site.gallery | sort: "weight" %}
+<ul class="gallery">
+  {% for image in page.images %}
+    <li><img src="{{ image.image_path }}" alt="{{ image.title}}"/></li>
+  {% endfor %}
+</ul>
