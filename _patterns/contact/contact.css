@@ -19,4 +19,24 @@
     padding-top: 0;
   }
 
+  .my-padding {
+    padding-bottom: 5%;
+  }
+
+}
+
+@media only screen and (min-width: 45em) {
+
+  .my-padding {
+    padding-bottom: 5%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .my-padding {
+    padding-bottom: 0%;
+  }
+
 }
