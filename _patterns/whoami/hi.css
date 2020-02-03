@@ -1,0 +1,12 @@
+.banner-1 {
+  background: url("/images/roma.jpg") no-repeat center / cover;
+  height: 100vh;
+}
+
+.hi {
+  color: #000;
+}
+
+.background-2 {
+  background-color: #fff;
+}
