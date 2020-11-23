@@ -22,10 +22,12 @@
 }
 
 .projects {
-  background-color: #ffd756;
-  color: #fff;
+  background-color: #000;
+  color: #ffd756;
 }
 
 h1 {
-  color: #fff;
+
+  color: #ffd756;
+
 }

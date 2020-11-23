@@ -2,7 +2,7 @@ a {
   font-style:normal;
 }
 a:hover {
-  color:#000;
+  color: #000;
   font-style:normal;
   font-weight:bold;
   text-decoration:underline;
@@ -17,7 +17,7 @@ a:hover {
 }
 
 .header-txt, .a-txt {
-  color: #fff !important;
+  color: #ffd756 !important;
 }
 
 .logo-size {
