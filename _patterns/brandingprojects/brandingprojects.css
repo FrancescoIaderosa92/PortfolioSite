@@ -1,0 +1,7 @@
+.projects {
+  background-color: #777;
+}
+
+.pro-card:hover {
+  border: 2px solid black
+}
